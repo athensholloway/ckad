@@ -3,6 +3,10 @@
 - [Shared Volumes](https://kubernetes.io/docs/tasks/access-application-cluster/communicate-containers-same-pod-shared-volume/)
 
 Multi-container Patterns
-- side car: performs a task that helps the main container 
-- ambassador: proxies container traffic 
-- adapter: transforms container output
+- [Side Car Container](https://kubernetes.io/docs/concepts/workloads/pods/sidecar-containers/): performs a task that helps the main container 
+- Ambassador Container: proxies container traffic 
+- Adapter Container: transforms container output
+- [Init Containers](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/): specialized container that runs before the app container
+    - delay startup
+    - security
+    
