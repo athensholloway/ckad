@@ -1,0 +1,4 @@
+- Deployents
+- Rolling Updates
+- Deployment Strategies
+- Helm Package Manager
