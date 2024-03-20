@@ -15,3 +15,7 @@
 Deployment Strategy
  - Blue/Green - 2 identical production environment. users currently use blue environment. roll out to green then cut over
  - Canary - second environment and a small portion of userbase uses the canary environmet.
+
+ [Helm](https://helm.sh/docs/) is a package manager for Kubernetes
+ - Charts
+ - Repository
