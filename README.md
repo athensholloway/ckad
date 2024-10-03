@@ -2,7 +2,7 @@ Setup a local multi-node Kubernetes cluster w/ [KinD](https://kind.sigs.k8s.io).
 
 `brew install kind`
 
-
+kubectl configuration file `~/.kube/config`
 
  Configure the [extraPortMappings](https://kind.sigs.k8s.io/docs/user/configuration/#extra-port-mappings) setting in `kind.yml` for port forwarding to KinD nodes.
 
@@ -20,6 +20,12 @@ Setup a local multi-node Kubernetes cluster w/ [KinD](https://kind.sigs.k8s.io).
 [Shell access to KinD worker node](https://stackoverflow.com/questions/69108075/how-to-ssh-into-kind-cluster-nodes-with-containerd-runtime) requires `docker exec -it [worker node] sh`
 
  Exam Resources:
+ - (Allowed during exam) [Kubernetes Docs](https://kubernetes.io./docs/)
+ - (Allowed during exam) [Kubernetes GitHub](https://github.com/kubernetes/)
+ - (Allowed during exam) [Kubernetes Blog](https://kubernetes.io/blog/)
+ - (Allowed during exam) [Help Docs](https://helm.sh/docs)
  - https://medium.com/@michael_england/how-i-passed-the-certified-kubernetes-application-developer-ckad-exam-cd443f160643#:~:text=This%20means%20that%20it%20is,for%20the%20exam%20is%2066%25.
  - https://killercoda.com/killer-shell-ckad
  - https://www.youtube.com/watch?v=wHha-Q3XVOg
+
+ kubectl apply -f https://raw.githubusercontent.com/ACloudGuru-Resources/content-cka-resources/master/metrics-server-components.yaml
